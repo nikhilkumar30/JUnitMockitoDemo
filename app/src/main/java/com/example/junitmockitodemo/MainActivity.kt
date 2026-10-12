@@ -28,6 +28,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         val repository = UserRepositoryImpl()
 
+        val name="Nikhil"
+
+        println("User Name: $name")
+
         enableEdgeToEdge()
         setContent {
             JUnitMockitoDemoTheme {
